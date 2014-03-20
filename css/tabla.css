@@ -1,0 +1,43 @@
+table {
+  display:table; 
+  font-family:verdana, arial, sans-serif; 
+  font-size:76%; 
+  line-height:1.7em; 
+  background:#888; 
+  border:7px solid #eee;
+  } 
+table:before {
+  content:"DATOS DE CONTACTO "; 
+  font-size:1.0em; 
+  margin-left:1em; 
+  color:#fff;
+  }
+tbody {
+  display:table-row-group;
+  }
+tr {
+  display:table-row; 
+  border:0px solid #aaa; 
+  border-width:0px 0px 0 25px; 
+  border-color:#000 #888 #000 #888; 
+  margin:2px 2px; 
+  width:280px;
+  } 
+
+td, th {
+  display:table-cell; 
+  padding:0.2em;
+  }
+table, tbody, tr, td, th {
+  display:block;
+  } 
+
+td {
+  background:#fff;
+  color:#00a;
+  width:350px;
+  padding:0.5em; 
+  }
+
+td:hover {
+  background:#bcd;}

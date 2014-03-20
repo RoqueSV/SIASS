@@ -1,0 +1,640 @@
+
+#form_container
+{
+	background:#FFFFFF;
+	border-style: ridge;
+	border-color: gray;
+	margin:0 auto;
+	text-align:justify;
+	width: 90%; /*750px;640*/
+}
+
+#top
+{
+	display:block;
+	height:10px;
+	margin:10px auto 0;
+	width: 90%;/*760px;/*650*/
+}
+
+#footer
+{
+	clear:both;
+	color:#999999;
+	text-align:center;
+	/*width:85%; /*750px;/*640*/
+	/*padding-bottom: 15px;
+	-- font-size: 85%;*/
+}
+
+#footer a{
+	color:#999999;
+	text-decoration: none;
+	border-bottom: 1px dotted #999999;
+}
+
+#bottom
+{
+	display:block;
+	height:10px;
+	margin:0 auto;
+	width:90%;/*650*/
+}
+
+form.appnitro
+{
+	margin:20px 20px 0;
+	padding:0 0 20px;
+}
+
+hr {
+background-color: #1E90FF;
+height: 1px;
+width: 80%;
+}
+h2{
+text-align: center;}
+
+/*** Calendar **********************/
+div.calendar { position: relative; }
+
+.calendar table {
+cursor:pointer;
+border:1px solid #ccc;
+font-size: 11px;
+color: #000;
+background: #fff;
+font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+
+.calendar .button { 
+text-align: center;    
+padding: 2px;          
+}
+
+.calendar .nav {
+background:#f5f5f5;
+}
+
+.calendar thead .title { 
+font-weight: bold;      
+text-align: center;
+background: #dedede;
+color: #000;
+padding: 2px 0 3px 0;
+}
+
+.calendar thead .headrow { 
+background: #f5f5f5;
+color: #444;
+font-weight:bold;
+}
+
+.calendar thead .daynames { 
+background: #fff;
+color:#333;
+font-weight:bold;
+}
+
+.calendar thead .name { 
+border-bottom: 1px dotted #ccc;
+padding: 2px;
+text-align: center;
+color: #000;
+}
+
+.calendar thead .weekend { 
+color: #666;
+}
+
+.calendar thead .hilite { 
+background-color: #444;
+color: #fff;
+padding: 1px;
+}
+
+.calendar thead .active { 
+background-color: #d12f19;
+color:#fff;
+padding: 2px 0px 0px 2px;
+}
+
+
+.calendar tbody .day { 
+width:1.8em;
+color: #222;
+text-align: right;
+padding: 2px 2px 2px 2px;
+}
+.calendar tbody .day.othermonth {
+font-size: 80%;
+color: #bbb;
+}
+.calendar tbody .day.othermonth.oweekend {
+color: #fbb;
+}
+
+.calendar table .wn {
+padding: 2px 2px 2px 2px;
+border-right: 1px solid #000;
+background: #666;
+}
+
+.calendar tbody .rowhilite td {
+background: #FFF1AF;
+}
+
+.calendar tbody .rowhilite td.wn {
+background: #FFF1AF;
+}
+
+.calendar tbody td.hilite { 
+padding: 1px 1px 1px 1px;
+background:#444 !important;
+color:#fff !important;
+}
+
+.calendar tbody td.active { 
+color:#fff;
+background: #529214 !important;
+padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected { 
+font-weight: bold;
+border: 1px solid #888;
+padding: 1px 1px 1px 1px;
+background: #f5f5f5 !important;
+color: #222 !important;
+}
+
+.calendar tbody td.weekend { 
+color: #666;
+}
+
+.calendar tbody td.today { 
+font-weight: bold;
+color: #529214;
+background:#D9EFC2;
+}
+
+.calendar tbody .disabled { color: #999; }
+
+.calendar tbody .emptycell { 
+visibility: hidden;
+}
+
+.calendar tbody .emptyrow { 
+display: none;
+}
+
+.calendar tfoot .footrow { 
+text-align: center;
+background: #556;
+color: #fff;
+}
+
+.calendar tfoot .ttip { 
+background: #222;
+color: #fff;
+font-size:10px;
+border-top: 1px solid #dedede;
+padding: 3px;
+}
+
+.calendar tfoot .hilite { 
+background: #aaf;
+border: 1px solid #04f;
+color: #000;
+padding: 1px;
+}
+
+.calendar tfoot .active { 
+background: #77c;
+padding: 2px 0px 0px 2px;
+}
+
+.calendar .combo {
+position: absolute;
+display: none;
+top: 0px;
+left: 0px;
+width: 4em;
+border: 1px solid #ccc;
+background: #f5f5f5;
+color: #222;
+font-size: 90%;
+z-index: 100;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+text-align: center;
+padding: 1px;
+}
+
+.calendar .combo .label-IEfix {
+width: 4em;
+}
+
+.calendar .combo .hilite {
+background: #444;
+color:#fff;
+}
+
+.calendar .combo .active {
+border-top: 1px solid #999;
+border-bottom: 1px solid #999;
+background: #dedede;
+font-weight: bold;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*									estilos de letra de los subtitulos										*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.subtitulo1{
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+}
+.subtitulo2{
+	color: blue;
+	font-size: 14px;
+	font-weight: normal;
+}
+.subtitulo3{
+	color: #006FBA;
+	font-size: 14px;
+	font-weight: normal;
+	border-top: 0px #fff;
+	border-left: 0px #fff;
+	border-right: 0px #fff;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*										puntero en forma de manita											*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.manita{
+	cursor: pointer;
+}
+
+/* Manita en enlaces cliqueables */
+        a[href], input[type='submit'],input[type='reset'],input[type='button'], input[type='image'], label[for], select, button, .pointer {
+	cursor: pointer;
+	}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* estilo para el marco											*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.marco{
+	border-style: ridge;
+	border-color: skyblue;
+        background: #F5F5F5;
+}
+
+.centro{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*								tooltip: muestra mensajitos flotantes (vi�etas)								*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#toolTipBox {
+	display: none;
+	padding: 5px;
+	font-size: 9px;
+	border: black solid 1px;
+	font-family: verdana;
+	position:fixed;
+	background-color: #ffd038;
+	color: #000000;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*											estilo de los enlaces											*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* normal */
+a:link{    
+	text-decoration: none;
+	color: midnightblue;
+}
+
+/* visitado */
+a:visited{
+	text-decoration: none;
+	color: 	midnightblue;
+	font-weight: normal;
+}
+
+/* cuando el raton se encuentra encima */
+a:hover{
+	text-decoration: underline;
+	color:black;
+	font-weight: normal;
+} 
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*										tinytable: plugin ordenar tabla										*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.tinytable{
+	width: 60%;
+	border: none;
+}
+.tinytable th{
+	background: url("../imagenes/fondo_buscar.png");
+	border: 1px solid #fff;
+	border-right: none;
+}
+.tinytable th h3{
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 0px;	/* ariba */
+	padding-left: 0px;	/* izquierda */
+	padding-right: 0px;	/* derecha */
+	padding-top: 0px;	/* abajo */
+}
+
+
+.tinytable td{
+	font-size: 12px;
+	text-align: center;
+	padding: 4px 4px 4px 4px;
+	border-bottom: 1px solid #c6d5e1;
+	border-right: 1px solid #c6d5e1;
+        border-left:  1px solid #c6d5e1;
+}
+.tinytable img{
+	width: 20px;
+}
+.tinytable td a img{
+	width: 150px;
+        height: 30px;
+}
+
+.tinytable .desc{
+	background: url("../imagenes/fondo_buscar-seleccionado.png");
+}
+.tinytable .asc{
+	background: url("../imagenes/fondo_buscar-seleccionado.png");
+}
+.tinytable .head h3{
+	background: url("../imagenes/flecha_buscar.png") no-repeat;
+	cursor: pointer;
+}
+.tinytable .desc h3{
+	background: url("../imagenes/flecha_descendente.png") no-repeat;
+	cursor: pointer;
+}
+.tinytable .asc h3{
+	background: url("../imagenes/flecha_ascendente.png") no-repeat;
+	cursor: pointer;
+}
+.tinytable .head:hover, .tinytable .desc:hover, .tinytable .asc:hover {
+	color: #fff;
+}
+.tinytable .evenrow td{
+	background: #fff;
+}
+.tinytable .oddrow td{
+	background: #ecf2f6;
+}
+.tinytable td.evenselected{
+	background: #ecf2f6;
+}
+.tinytable td.oddselected{
+	background: #dce6ee;
+}
+.tinytable tfoot{
+	background: #fff;
+	font-weight: bold;
+}
+.tinytable tfoot td{
+	padding: 6px 8px 8px;
+}
+#selectedrow td{
+	background: #c6d5e1;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*								dw_tooltips: plugin para crear y mostrar tooltips							*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+div#tipDiv{
+	color: #000;
+	font-size: 9px;
+	line-height: 1.2;
+	text-align: center;
+	background-color: #ffd038;
+	border: black solid 1px; 
+	width: 70px;
+	padding: 5px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*								estilo de letra de los nombre de la pagina									*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.encabezado1{
+	color: white;
+	font-size: 28px;
+}
+.encabezado2{
+	color: #006FBA;	/*azul marino*/
+	font-size: 22px;
+}
+.encabezado3{
+	color: #006FBA;
+	font-size: 20px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*destacar alertas, mensajes, resultados, errores									*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.elementoVacio{
+	border: 2px solid #f00;
+	background: #f99;
+}
+.alerta{
+	border: 2px solid #f00;
+	background: #FFFFA3;	/* rojo */
+}
+.error{
+	color: #f00;
+}
+.resultado{
+	border: 2px solid #000;
+	background: #E5E5E5;	/* gris */
+}
+.obligatorio{
+	font-size: 12px;
+	color: red;
+	text-align: right;
+}
+
+.td{
+        color: black;
+	text-decoration: none;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Destacar mensaje de usuario existente o no									*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.both{ font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+.both h4{ margin:0px; font-size:14px;}
+
+.both{ float:left; margin:0 15px 0 0; padding:0px;}
+
+
+
+#Error{
+
+	background-image:url("../imagenes/no.jpg");
+
+	background-repeat:no-repeat;
+
+	background-position:left; 
+
+	color:#FF0000; 
+
+	padding-left:33px; 
+
+	height:19px; 
+
+	padding-top:6px;
+
+	padding-right:10px;
+
+	}
+
+#Success{
+
+	background-image:url("../imagenes/yes.jpg");
+
+	background-repeat:no-repeat;
+
+	background-position:left; 
+
+	color:#669933; 
+
+	padding-left:33px; 
+
+	height:19px; 
+
+	padding-top:6px;
+
+	padding-right:10px;
+
+	}
+
+
+
+#customForm input{
+
+	width: 220px;
+
+	padding: 3px;
+
+	float:left;
+
+	margin-bottom:10px;
+
+	height:20px;
+
+	color: #000000;
+
+	font-size: 12px;
+
+	border: 1px solid #cecece;
+
+}
+
+
+
+#customForm label{
+
+	display: block;
+
+	color:#000000;
+
+	/*float:left;*/
+
+	width:140px;
+
+	font-size:12px;
+
+	margin-bottom:6px;
+
+}
+
+
+
+#customForm div{
+
+	margin-left: 10px;
+
+	font-size: 11px;
+
+	float:left;
+
+}
+
+#customForm div span{
+
+	margin-left: 10px;
+
+	color: #000000;
+
+	font-size: 11px;
+
+	float:left;
+
+}
+
+#send {
+background-color: #CECECE;
+    border: 1px solid gray;
+    color: #000000;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 5px 3px 3px;
+    text-align: center;
+    width: 220px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*	Varios   										*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* by Roquet */
+
+.imagen{  /*Imagenes formularios*/
+    width: 120px; 
+    height: 80px;
+    display: block;
+    margin: auto;
+ }
+
+ /* alineacion en tablas para tabular datos */
+#tdr {
+text-align: right;
+}
+
+#tdl {
+text-align: justify;
+}
+
+/* Campos obligatorios */
+span.obligatorio{
+ font-size: 12px;
+ color: red;
+}
+ 
+/* CSS Document */

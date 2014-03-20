@@ -1,0 +1,50 @@
+/* CSS Document */
+#menuv {
+        border: 1px solid #8C9194;
+        border-width: 1px 1px 0 1px;
+        width: 185px;
+        font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#menuv ul, li {
+        list-style-type: none;
+      
+}
+
+#menuv ul {
+        margin: 0;
+        padding: 0;
+}
+
+#menuv li {
+        border-bottom: 1px solid #A5B2A0;
+}
+
+#menuv a {
+        text-decoration: none;
+        color: #176D9B;
+        background: #E4E5E5;
+        display: block;
+        padding: 3px 6px;
+        width: 170px;
+}
+
+#menuv a:hover {
+        background: #CAC9CA;
+}
+
+/* Submenus (etiquetas <ul>) estan ocultos a una posicion absoluta a traves de su padre */
+	.menulist ul {display: none; position: relative; top: 0; down: px;}
+
+/*	Todos los items del menu (etiquetas <li>) estan en una posicion relativa (para compensar correctamente submenus)*/
+	.menulist li {position: relative;} 
+
+
+#menuv li ul li {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 8pt;
+	
+
+}
